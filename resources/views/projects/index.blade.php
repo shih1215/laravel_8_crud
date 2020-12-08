@@ -21,12 +21,12 @@
 
     <table class="table table-bordered table-responsive-lg">
         <tr>
-            <th>No</th>
-            <th>Name</th>
-            <th>Introduction</th>
-            <th>Location</th>
-            <th>Cost</th>
-            <th>Date Created</th>
+            <th>編號</th>
+            <th>姓名Name</th>
+            <th>簡介Introduction</th>
+            <th>位置Location</th>
+            <th>費用Cost</th>
+            <th>日期Date Created</th>
             <th width="280px">Action</th>
         </tr>
         @foreach ($projects as $project)
